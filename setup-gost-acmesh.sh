@@ -54,6 +54,10 @@ CURRENT_PATH=$current_path
 EOF
 }
 
+export CF_Token=$CF_Token
+export CF_Account_ID=$CF_Account_ID
+export CF_Zone_ID=$CF_Zone_ID
+
 # 函数: 安装 gost
 function install_gost() {
   git clone https://github.com/go-gost/gost.git
